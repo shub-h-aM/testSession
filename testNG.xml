@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+    <test thread-count="1" name="On Source activity" preserve-order="true">
+        <classes>
+            <class name="package1.CreateCNs">
+                <parameter name="username" value="smoke_oadelt1@rivigo.com"></parameter>
+                <parameter name="password" value="Smoketest@zoom5"></parameter>
+                <methods>
+                    <include name="getAccessToken"></include>
+                    <include name="getfromAddress"></include>
+                    <include name="gettoAddress"></include>
+                    <include name="createCn"></include>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

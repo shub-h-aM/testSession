@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="On Source activity(failed)">
+    <classes>
+      <class name="package1.CreateCNs">
+        <parameter name="password" value="Smoketest@zoom5"/>
+        <parameter name="username" value="smoke_oadelt1@rivigo.com"/>
+        <methods>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="createCn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- package1.CreateCNs -->
+    </classes>
+  </test> <!-- On Source activity(failed) -->
+</suite> <!-- Failed suite [Suite] -->

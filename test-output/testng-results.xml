@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-21T14:47:49 IST" name="Suite" finished-at="2022-03-21T14:48:22 IST" duration-ms="33012">
+    <groups>
+    </groups>
+    <test started-at="2022-03-21T14:47:49 IST" name="On Source activity" finished-at="2022-03-21T14:48:22 IST" duration-ms="33012">
+      <class name="package1.CreateCNs">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:package1.CreateCNs@1b1473ab]" started-at="2022-03-21T14:47:49 IST" name="setUp" finished-at="2022-03-21T14:47:50 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAccessToken(java.lang.String, java.lang.String)[pri:0, instance:package1.CreateCNs@1b1473ab]" started-at="2022-03-21T14:47:50 IST" name="getAccessToken" finished-at="2022-03-21T14:47:53 IST" duration-ms="3493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smoke_oadelt1@rivigo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smoketest@zoom5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccessToken -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:package1.CreateCNs@1b1473ab]" started-at="2022-03-21T14:47:53 IST" name="tearDown" finished-at="2022-03-21T14:47:53 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAccessToken status=SUCCESS method=BaseClass.getAccessToken(java.lang.String, java.lang.String)[pri:0, instance:package1.CreateCNs@1b1473ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getfromAddress()[pri:0, instance:package1.CreateCNs@1b1473ab]" started-at="2022-03-21T14:47:53 IST" name="getfromAddress" finished-at="2022-03-21T14:47:58 IST" duration-ms="4373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getfromAddress -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:package1.CreateCNs@1b1473ab]" started-at="2022-03-21T14:47:58 IST" name="tearDown" finished-at="2022-03-21T14:47:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getfromAddress status=SUCCESS method=CreateCNs.getfromAddress()[pri:0, instance:package1.CreateCNs@1b1473ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="gettoAddress()[pri:0, instance:package1.CreateCNs@1b1473ab]" started-at="2022-03-21T14:47:58 IST" name="gettoAddress" finished-at="2022-03-21T14:48:00 IST" duration-ms="1932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettoAddress -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:package1.CreateCNs@1b1473ab]" started-at="2022-03-21T14:48:00 IST" name="tearDown" finished-at="2022-03-21T14:48:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gettoAddress status=SUCCESS method=CreateCNs.gettoAddress()[pri:0, instance:package1.CreateCNs@1b1473ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createCn()[pri:0, instance:package1.CreateCNs@1b1473ab]" started-at="2022-03-21T14:48:00 IST" name="createCn" finished-at="2022-03-21T14:48:22 IST" duration-ms="22077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCn -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:package1.CreateCNs@1b1473ab]" started-at="2022-03-21T14:48:22 IST" name="tearDown" finished-at="2022-03-21T14:48:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCn status=SUCCESS method=CreateCNs.createCn()[pri:0, instance:package1.CreateCNs@1b1473ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:package1.CreateCNs@1b1473ab]" started-at="2022-03-21T14:48:22 IST" name="endReport" finished-at="2022-03-21T14:48:22 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- package1.CreateCNs -->
+    </test> <!-- On Source activity -->
+  </suite> <!-- Suite -->
+</testng-results>
