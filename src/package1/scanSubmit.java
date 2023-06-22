@@ -4,7 +4,6 @@ import static io.restassured.RestAssured.given;
 
 import org.testng.annotations.Test;
 
-import files.payload;
 import io.restassured.RestAssured;
 
 public class scanSubmit {

@@ -1,8 +1,6 @@
 package package1;
 import org.testng.annotations.Test;
 
-import files.payload;
-import files.reusableMethods;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 

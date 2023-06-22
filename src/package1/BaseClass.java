@@ -18,7 +18,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import files.PropertiesUtils;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
@@ -103,6 +102,15 @@ public class BaseClass {
 	            System.out.println(accessToken);
 	        
 	        }
+
+
+		//reusableMethods.rawToJson(generateAccessToken);
+
+//		JsonPath js = new JsonPath(generateAccessToken);
+//		accessToken = js.get("response.access_token");
+//		System.out.println(accessToken);
+
+
 	    
 	             
 	    

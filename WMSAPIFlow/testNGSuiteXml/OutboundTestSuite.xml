@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+	<test thread-count="5" name="On wareHouse Outbound activity" preserve-order="true">
+		<classes>
+			<class name="wmsTestFile.WMSOutbound">
+				<methods>
+					<include name="testSelectedWarehouse"></include>
+					<include name="testOrderUpload"></include>
+					<include name="testGetOrderProcess"></include>
+					<include name="testOrderProcess"></include>
+					<include name="testWaveCreation"></include>
+					<include name="testGetPendingWaveCreationProcess"></include>
+					<include name="testGetAssignPickerForWaveRelease"></include>
+					<include name="testCreateWave"></include>
+					<include name="testWaveAdd"></include>
+					<include name="testGenerateWave"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

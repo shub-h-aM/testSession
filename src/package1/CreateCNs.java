@@ -1,8 +1,6 @@
 package package1;
 import org.testng.annotations.Test;
 
-import files.payload;
-import files.reusableMethods;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
@@ -54,9 +52,11 @@ public class CreateCNs extends BaseClass{
 		.when().post("/backend/operations/consignments")
 		.then().log().all().assertThat().statusCode(200).body("status", equalTo("SUCCESS"));
 			
-		
+
+
 	}
-	
+
+
 
 }
 

@@ -2,8 +2,6 @@ package package1;
 
 import org.testng.annotations.Test;
 
-import files.payload;
-
 import static io.restassured.RestAssured.*;
 import io.restassured.RestAssured;
 
